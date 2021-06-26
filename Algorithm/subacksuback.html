@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>수박수박수박</title>
+  </head>
+  <body></body>
+  <script>
+    function solution(n) {
+      let answer = "";
+      let s = "수박";
+      let num = Math.floor(n / 2);
+      for (let i = 0; i < num; i++) {
+        answer += s;
+      }
+      return n % 2 === 1 ? answer + "수" : answer;
+    }
+    console.log(solution(4));
+  </script>
+</html>
