@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>김서방 찾기</title>
+  </head>
+  <body>
+    <script>
+      function solution(seoul) {
+        let searchIndex = seoul.indexOf("Kim");
+        console.log(searchIndex);
+        return `김서방은 ${searchIndex}에 있다`;
+      }
+
+      solution(["Jane", "Kim"]);
+    </script>
+  </body>
+</html>
