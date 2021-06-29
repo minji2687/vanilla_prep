@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Calendar Project</title>
+  </head>
+
+  <body>
+    <section>
+      <div class="image-box">
+        <img src="images/vanilla_coding_logo.png" />
+      </div>
+      <h1>Calendar</h1>
+
+      <!-- 달력 Start -->
+      <div class="display">
+        <p class="displayDay"></p>
+        <p class="displayDate"></p>
+        <p class="displayMonthAndYear"></p>
+      </div>
+
+      <div class="calender_wrap">
+        <div class="labels">
+          <p>SUN</p>
+          <p>MON</p>
+          <p>TUE</p>
+          <p>WED</p>
+          <p>THU</p>
+          <p>FRI</p>
+          <p>SAT</p>
+        </div>
+        <div class="days">
+          <div class="column sun"></div>
+          <div class="column mon"></div>
+          <div class="column tue"></div>
+          <div class="column wed"></div>
+          <div class="column thu"></div>
+          <div class="column fri"></div>
+          <div class="column sat"></div>
+        </div>
+        <p class="prev">
+          <span class="material-icons"> arrow_back_ios </span>
+        </p>
+        <p class="next">
+          <span class="material-icons"> arrow_forward_ios </span>
+        </p>
+      </div>
+      <!-- 달력 End -->
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>

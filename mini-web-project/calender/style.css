@@ -1,0 +1,75 @@
+body {
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 72px;
+}
+
+.calender_wrap {
+  margin: 30px auto;
+  position: relative;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 280px;
+  background: whitesmoke;
+}
+.days {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  margin: 0 1rem;
+}
+.column p {
+  width: 20px;
+}
+
+.labels {
+  display: flex;
+}
+.labels p {
+  width: 20px;
+  text-align: center;
+  margin: 1rem;
+}
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  cursor: pointer;
+}
+.next {
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  cursor: pointer;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.displayDay {
+  margin: 1rem;
+  font-size: 3rem;
+}
+.displayDate {
+  margin: 1rem;
+
+  font-size: 2.5rem;
+}
+.displayMonthAndYear {
+  margin: 1rem;
+
+  font-size: 1.4rem;
+}
