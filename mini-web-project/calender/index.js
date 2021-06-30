@@ -137,7 +137,10 @@ function reset() {
 }
 
 daysTable.addEventListener("click", (e) => {
-  console.log(e.target);
+  if (e.target.nodeName === "DIV") {
+    return;
+  }
+  console.dir(e.target);
   displayDay.innerText = e.target.dataset.day;
   displayDate.innerText = e.target.dataset.date;
 });
